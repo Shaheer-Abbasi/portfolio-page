@@ -8,10 +8,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 
 const projects = [
-    { id: 1, title: 'VelvetCode', desc: 'Real-time collaborative code editor with AI-powered features, supporting concurrent users with low latency synchronization and in-browser execution for multiple programming languages', img: '/velvetcode-chatroom.png', github: 'https://github.com/Shaheer-Abbasi/VelvetCode' },
-    { id: 2, title: 'QuizifAI', desc: 'AI-powered learning platform that automatically generates practice quizzes from study materials using OCR and Gemini, with secure authentication and SQLite database storage', img: '/qai-home.png', github: 'https://github.com/Shaheer-Abbasi/QuizifAI' },
-    { id: 3, title: 'SenLab Protein Analyzer', desc: 'Comprehensive PyQt5 GUI application for protein sequence analysis, featuring BLASTP searches, MMseqs2 clustering, and full cross-platform support for local and remote databases', img: '/slp-blastp.png', github: 'https://github.com/Shaheer-Abbasi/Protein_GUI' },
-    { id: 4, title: 'Palworld Breeding Calculator', desc: 'Co-developed an interactive web application helping players determine breeding outcomes in PalWorld, built with React for a responsive and user friendly design', img: '/pbc-front_page.png', github: 'https://github.com/PaulKuruvila/palworld-breeding-calculator' }
+    { id: 1, title: 'VelvetCode', desc: 'Real-time collaborative code editor with AI-powered features, supporting concurrent users with low latency synchronization and in-browser execution for multiple programming languages', img: '/velvetcode-chatroom.PNG', github: 'https://github.com/Shaheer-Abbasi/VelvetCode' },
+    { id: 2, title: 'QuizifAI', desc: 'AI-powered learning platform that automatically generates practice quizzes from study materials using OCR and Gemini, with secure authentication and SQLite database storage', img: '/qai-home.PNG', github: 'https://github.com/Shaheer-Abbasi/QuizifAI' },
+    { id: 3, title: 'SenLab Protein Analyzer', desc: 'Comprehensive PyQt5 GUI application for protein sequence analysis, featuring BLASTP searches, MMseqs2 clustering, and full cross-platform support for local and remote databases', img: '/slp-blastp.PNG', github: 'https://github.com/Shaheer-Abbasi/Protein_GUI' },
+    { id: 4, title: 'Palworld Breeding Calculator', desc: 'Co-developed an interactive web application helping players determine breeding outcomes in PalWorld, built with React for a responsive and user friendly design', img: '/pbc-front_page.PNG', github: 'https://github.com/PaulKuruvila/palworld-breeding-calculator' }
 ]
 
 export default function Projects() {
