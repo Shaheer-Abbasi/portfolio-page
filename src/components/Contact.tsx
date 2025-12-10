@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import { FiGithub, FiLinkedin, FiFile, FiMapPin } from 'react-icons/fi'
-import { FaXTwitter } from 'react-icons/fa6'
 import { motion } from 'framer-motion'
 import ResumeModal from './ResumeModal'
 
@@ -30,7 +29,7 @@ export default function Contact() {
             } else {
                 setSubmitStatus('error')
             }
-        } catch (error) {
+        } catch {
             setSubmitStatus('error')
         } finally {
             setIsSubmitting(false)
@@ -44,7 +43,7 @@ export default function Contact() {
     return (
         <section id="contact" className="py-20">
         <div className="max-w-2xl mx-auto w-full text-center">
-        <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }} className="text-4xl font-bold mb-4">Let's Connect</motion.h2>
+        <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }} className="text-4xl font-bold mb-4">Let&apos;s Connect</motion.h2>
         
         <motion.p 
             initial={{ opacity: 0 }} 
@@ -52,7 +51,7 @@ export default function Contact() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-slate-300 mb-2"
         >
-            Have a project in mind? Let's create something amazing together.
+            Have a project in mind? Let&apos;s create something amazing together.
         </motion.p>
 
         <motion.div 
