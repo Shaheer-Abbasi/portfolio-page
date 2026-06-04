@@ -9,6 +9,8 @@ interface ResumeModalProps {
 }
 
 export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
+  const resumeUrl = '/Shaheer-Abbasi-Resume-SWE.pdf?v=20260604'
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -44,7 +46,7 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
             {/* PDF Viewer */}
             <div className="flex-1 overflow-auto p-4">
               <iframe
-                src="/Shaheer-Abbasi-Resume-SWE.pdf"
+                src={resumeUrl}
                 className="w-full h-full rounded-lg border border-slate-700/50"
                 title="Resume PDF"
               />
@@ -53,7 +55,7 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
             {/* Footer */}
             <div className="p-4 border-t border-slate-700/50 flex justify-center">
               <a
-                href="/Shaheer-Abbasi-Resume-SWE.pdf"
+                href={resumeUrl}
                 download
                 className="px-6 py-2.5 rounded-lg bg-gradient-to-r from-teal-500 to-cyan-500 hover:from-teal-600 hover:to-cyan-600 transition-all font-medium"
               >
